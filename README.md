@@ -74,6 +74,9 @@ Then open http://localhost:3000 in your browser.
 1. **Select Languages**
    - Choose the **source language** (language you speak/write).
    - Choose the **target language** (language to translate into).
+  
+     <img width="342" height="198" alt="image" src="https://github.com/user-attachments/assets/93e1959f-458e-4ea0-94ba-72f18be93250" />
+
 
 2. **Speech-to-Text**
    - Click the **microphone button** to start recording.
@@ -83,6 +86,9 @@ Then open http://localhost:3000 in your browser.
 3. **Viewing Results**
    - The corrected transcript will be displayed first.
    - The final translated sentence will appear below it.
+
+<dt><img width="672" height="343" alt="image" src="https://github.com/user-attachments/assets/7f333bb0-2e54-4ae5-9419-760a21576b76" /></dt>
+
 
 ---
 
