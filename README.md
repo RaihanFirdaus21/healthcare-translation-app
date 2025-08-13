@@ -1,36 +1,61 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Healthcare Translation App
 
-## Getting Started
+A web-based healthcare translation application built with **Next.js**, **Google Generative AI (Gemini)**, and **Vercel**.  
+This app is designed to translate and improve live or batch transcripts, making it easier for healthcare professionals to communicate across language barriers.
 
-First, run the development server:
+---
 
-```bash
+## ✨ Features
+- **Real-time Transcript Translation** – Translates speech or text into a target language.
+- **Transcript Improvement** – Uses AI to correct grammar, spelling, and readability before translation.
+- **Delay Before Translation** – Prevents immediate translation for long sentences by adding a configurable delay.
+- **Modern UI** – Minimalist and responsive design suitable for healthcare environments.
+- **Deployment Ready** – Optimized for Vercel hosting.
+
+---
+
+## 📦 Tech Stack
+- **Frontend:** Next.js (React framework)
+- **Backend API:** Next.js API Routes
+- **AI Model:** Google Generative AI (Gemini)
+- **Deployment:** Vercel
+- **Version Control:** Git + GitHub
+
+---
+
+## 🛠 Prerequisites
+Before running the project locally, make sure you have:
+- **Node.js** (>= 18.x)
+- **npm** or **yarn**
+- **Google Generative AI API Key** ([Get it here](https://makersuite.google.com/app/apikey))
+- **GitHub account** (for version control)
+- **Vercel account** (for deployment)
+
+---
+
+## 🚀 Installation & Setup
+
+### 1️⃣ Clone Repository
+
+git clone https://github.com/your-username/healthcare-translation-app.git
+cd healthcare-translation-app
+
+---
+
+### 2️⃣ Install Dependencies
+
+npm install
+or
+yarn install
+
+### 3️⃣ Configure Environment Variables
+
+Create a .env.local file in the root folder and add:
+
+env
+GOOGLE_API_KEY=your_google_generative_ai_api_key
+
+### 4️⃣ Run Locally
+
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
-
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
-
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
-
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+Then open http://localhost:3000 in your browser.
