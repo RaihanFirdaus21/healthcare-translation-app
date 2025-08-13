@@ -65,3 +65,31 @@ npm run dev
 Then open http://localhost:3000 in your browser.
 
 ---
+
+## 📖 User Guide
+
+### 1️⃣ Using the Application
+1. **Select Languages**
+   - Choose the **source language** (language you speak/write).
+   - Choose the **target language** (language to translate into).
+
+2. **Speech-to-Text**
+   - Click the **microphone button** to start recording.
+   - Speak clearly and complete your sentence before pausing.
+   - The app will **delay translation** slightly to ensure it captures the entire sentence.
+
+3. **Viewing Results**
+   - The corrected transcript will be displayed first.
+   - The final translated sentence will appear below it.
+
+---
+
+### 2️⃣ Best Practices for Accurate Translation
+- Use **full and clear sentences** for better accuracy.
+- Avoid slang or highly informal language in medical contexts.
+- If using speech mode:
+  - Speak at a moderate pace.
+  - Pause slightly between sentences.
+  - Avoid background noise.
+
+---
