@@ -1,7 +1,7 @@
 "use client";
 
 import { useState, useEffect, useRef } from "react";
-import styles from "./Home.module.css";
+import styles from "./page.module.css";
 
 const LANGUAGES = [
   { code: "en-US", label: "English" },

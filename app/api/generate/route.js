@@ -26,11 +26,9 @@ Transcript:
 Only provide the corrected transcript.
 `;
 
-    console.log('text : ', text)
     const correctionResult = await model.generateContent(correctionPrompt);
     const correctionResponse = await correctionResult.response;
     const correctedText = (await correctionResponse.text()).trim();
-    console.log('corrected text : ', correctedText)
 
     // STEP 2: Translation
     const translationPrompt = `
