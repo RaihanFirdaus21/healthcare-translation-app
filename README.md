@@ -48,6 +48,8 @@ npm install
 or
 yarn install
 
+---
+
 ### 3️⃣ Configure Environment Variables
 
 Create a .env.local file in the root folder and add:
@@ -55,7 +57,11 @@ Create a .env.local file in the root folder and add:
 env
 GOOGLE_API_KEY=your_google_generative_ai_api_key
 
+---
+
 ### 4️⃣ Run Locally
 
 npm run dev
 Then open http://localhost:3000 in your browser.
+
+---
