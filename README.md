@@ -3,6 +3,8 @@
 A web-based healthcare translation application built with **Next.js**, **Google Generative AI (Gemini)**, and **Vercel**.  
 This app is designed to translate and improve live or batch transcripts, making it easier for healthcare professionals to communicate across language barriers.
 
+<img width="1920" height="846" alt="image" src="https://github.com/user-attachments/assets/7135a5ec-fa00-4a0e-8692-1d3ab95e9fc2" />
+
 ---
 
 ## ✨ Features
@@ -72,6 +74,12 @@ Then open http://localhost:3000 in your browser.
 1. **Select Languages**
    - Choose the **source language** (language you speak/write).
    - Choose the **target language** (language to translate into).
+<dl> 
+  <dd>
+         <img width="352" height="218" alt="image" src="https://github.com/user-attachments/assets/67e60df2-c358-466f-b03e-b6a95aa4f27e" />
+
+  </dd>
+</dl>
 
 2. **Speech-to-Text**
    - Click the **microphone button** to start recording.
